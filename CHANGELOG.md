@@ -2,6 +2,12 @@
 
 ### Vite v4.3.2 || React v18.2.0
 
+## Version [0.0.3] 2023/05/05
+
+## Added
+
+- Sección Habilidades completa
+
 ## Version [0.0.1] 2023/05/04
 
 ## Added
