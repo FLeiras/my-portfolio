@@ -1,4 +1,4 @@
-import foto  from '../../../src/images/foto.jpg'
+import foto  from '../../../src/images/fotoMia.jpg'
 
 import './Sobre-mi.css'
 
@@ -16,12 +16,13 @@ export const Sobremi = () => {
           </h2>
           <h3>Desarrollador FullStack</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic veniam
-            expedita eaque, autem quidem totam provident eos quis, nostrum nulla
-            est. Impedit, doloribus.
+            Soy un apasionado desarrollador de software. Lo que más me motiva en esta industria es la oportunidad de crear soluciones innovadoras 
+            y funcionales que mejoren la vida de las personas. Disfruto inmensamente pasar horas desarrollando y buscando soluciones creativas a 
+            los desafíos que se presentan. Mi objetivo principal es seguir creciendo y mejorando como profesional.
           </p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          ¡Gracias por visitar mi portfolio y por considerar mi perfil! 
+          Si estás interesado en conocer más sobre mi trabajo o en que colabore en algún proyecto, no dudes en contactarme.
           </p>
           <a href="#">Descargar CV</a>
         </div>

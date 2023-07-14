@@ -9,9 +9,9 @@ export const Habilidades = () => {
           <div className="titulo-habilidades codigo">
             <h3>Código</h3>
             <img src="../../../src/images/html.png" alt="" />
-            <img src="../../../src/images/css.png" alt="" />
             <img src="../../../src/images/js.png" alt="" />
             <img src="../../../src/images/ts.png" alt="" />
+            <img src="../../../src/images/dart1.png" alt="" />
           </div>
           <div className="titulo-habilidades codigo">
             <h3>Backend</h3>
@@ -24,8 +24,7 @@ export const Habilidades = () => {
             <h3>Frontend</h3>
             <img src="../../../src/images/react.png" alt="" />
             <img src="../../../src/images/vue.png" alt="" />
-            <img src="../../../src/images/redux.png" alt="" />
-            <img src="../../../src/images/pinia.png" alt="" />
+            <img src="../../../src/images/flutter.png" alt="" />
           </div>
           <div className="titulo-habilidades codigo">
             <h3>Otras</h3>

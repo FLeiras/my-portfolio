@@ -32,10 +32,16 @@ export const Nav = () => {
               <AiOutlineMenu />
             </div>
             <div className="iconos">
-              <a href="https://www.linkedin.com/in/fede-leiras/">
+              <a 
+                href="https://www.linkedin.com/in/fede-leiras/"
+                target="_blank"
+              >
                 <BsLinkedin />
               </a>
-              <a href="https://github.com/FLeiras">
+              <a 
+                href="https://github.com/FLeiras"
+                target="_blank"
+              >
                 <BsGithub />
               </a>
             </div>
