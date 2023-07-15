@@ -1,8 +1,17 @@
-import { BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
-import { AiOutlineMenu } from "react-icons/ai";
-import "./Nav.css";
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import { AiOutlineMenu } from 'react-icons/ai';
+import './Nav.css';
 
 export const Nav = () => {
+  const responsiveMenu = () => {
+    let x = document.getElementById('nav');
+    if (x.className === '') {
+      x.className = 'responsive';
+    } else {
+      x.className = '';
+    }
+  };
+
   return (
     <>
       <div className="container-nav">
@@ -28,20 +37,20 @@ export const Nav = () => {
                 </li>
               </ul>
             </nav>
-            <div className="icono-nav">
-              <AiOutlineMenu />
+
+            <div id="icono-nav" onClick={responsiveMenu}>
+              <div className="icono-nav">
+                <AiOutlineMenu />
+              </div>
             </div>
             <div className="iconos">
-              <a 
+              <a
                 href="https://www.linkedin.com/in/fede-leiras/"
                 target="_blank"
               >
                 <BsLinkedin />
               </a>
-              <a 
-                href="https://github.com/FLeiras"
-                target="_blank"
-              >
+              <a href="https://github.com/FLeiras" target="_blank">
                 <BsGithub />
               </a>
             </div>

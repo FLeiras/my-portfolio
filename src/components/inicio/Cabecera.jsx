@@ -1,6 +1,6 @@
-import { Nav } from "../navegacion/Nav";
+import { Nav } from '../navegacion/Nav';
 
-import "./Cabecera.css";
+import './Cabecera.css';
 
 export const Cabecera = () => {
   return (
@@ -15,10 +15,11 @@ export const Cabecera = () => {
                 Soy <span>Federico Leiras</span>, Desarrollador Fullstack
               </h2>
               <p className="descripcion">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Blanditiis porro voluptas harum ullam itaque accusamus
-                accusantium rerum. Autem dignissimos nam ullam, consequatur non
-                vero, recusandae quis repellat accusamus, doloribus aspernatur.
+                Hola, soy un apasionado desarrollador Full Stack especializado
+                en Frontend. Con una sólida experiencia en atención al cliente y
+                una habilidad excepcional para la comunicación, me enorgullezco
+                de ofrecer soluciones tecnológicas efectivas y crear
+                experiencias digitales atractivas.
               </p>
               <a href="#portfolio">Ir a Portafolio</a>
             </div>

@@ -2,6 +2,14 @@
 
 ### Vite v4.3.2 || React v18.2.0
 
+## Version [0.0.5] 2023/07/14
+
+## Added
+
+- Sección Proyectos completa.
+- Seccion de contacto completa.
+- Arreglados detalles de estilos.
+
 ## Version [0.0.3] 2023/05/05
 
 ## Added
