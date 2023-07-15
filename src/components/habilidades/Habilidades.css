@@ -1,0 +1,83 @@
+#habilidades {
+  padding: 10rem 1rem;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+
+#habilidades img {
+  width: 9.3rem;
+  padding: 0.5rem 0.6rem;
+}
+
+#habilidades .titulo-habilidades {
+  margin: 0 0 -0.5rem 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #111135;
+  text-decoration: underline;
+  text-decoration-color: #d3d3d3;
+  text-decoration-thickness: 5px;
+}
+
+#habilidades .fila {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 30px auto;
+}
+
+#habilidades .fila .codigo {
+  max-width: 350px;
+  background-color: #fff;
+  padding: 30px;
+  margin: -0.5rem 5px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#habilidades .fila .codigo:hover {
+  box-shadow: 5px 5px 10px #565656, -5px -5px 10px;
+}
+
+@media (max-width: 768px) {
+  #habilidades img {
+    width: 7rem;
+    padding: 0.5rem 0.7rem;
+  }
+
+  #habilidades .fila .codigo {
+    margin: 0 2px;
+  }
+}
+
+@media (max-width: 412px) {
+  #habilidades img {
+    width: 7rem;
+    padding: 0.5rem 0.6rem;
+  }
+
+  #habilidades .fila {
+    flex-direction: column;
+  }
+
+  #habilidades .fila .codigo {
+    margin: 0.5rem 2px;
+  }
+}
+
+@media (max-width: 375px) {
+  #habilidades img {
+    width: 7rem;
+    padding: 0.5rem 0.6rem;
+  }
+  #habilidades .fila {
+    flex-direction: column;
+  }
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width = 800px) {
+  .contenedor-skills {
+    padding: 50px 20px;
+  }
+}
