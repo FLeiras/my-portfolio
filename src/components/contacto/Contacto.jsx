@@ -47,7 +47,7 @@ export const Contacto = () => {
         <h3 className="titulo-seccion">Contactame</h3>
         <div className="contenedor-form">
           <form
-            action="http://formspree.io/f/xnqkqkde"
+            action="https://formspree.io/f/xnqkqkde"
             method="POST"
             onSubmit={enviarFormulario}
           >

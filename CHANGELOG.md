@@ -2,6 +2,12 @@
 
 ### Vite v4.3.2 || React v18.2.0
 
+## Version [0.1.5] 2023/07/15
+
+## Added
+
+- Arreglo de la vista contacto, cambie http por https en la petición.
+
 ## Version [0.0.5] 2023/07/14
 
 ## Added
