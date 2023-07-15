@@ -45,11 +45,13 @@ export const Proyectos = () => {
             <div className="overlay"></div>
             <img src={tech} alt="" />
             <div className="info">
-              <h4>Descripción del Proyecto</h4>
               <p>
                 TechPro App, proyecto personal para poner en practica cursos de
                 css y responsive design.
               </p>
+              <a href="https://tech-pro-app.netlify.app/" target="_blank">
+                <h4>Visitalo</h4>
+              </a>
             </div>
           </div>
           <div className="proyecto">
@@ -60,6 +62,9 @@ export const Proyectos = () => {
               <p>
                 PokeGame, juego donde el usuario itenta adivinar la silueta.
               </p>
+              <a href="https://pokemon-game-v100.netlify.app/" target="_blank">
+                <h4>Visitalo</h4>
+              </a>
             </div>
           </div>
           <div className="proyecto">
