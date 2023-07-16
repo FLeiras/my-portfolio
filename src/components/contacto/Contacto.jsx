@@ -9,33 +9,39 @@ export const Contacto = () => {
 
     try {
       const form = e.target;
-      await fetch(form.action, {
+      const formData = new FormData(form);
+
+      const response = await fetch('/.netlify/functions/submitForm', {
         method: 'POST',
-        body: new FormData(form),
+        body: JSON.stringify(Object.fromEntries(formData)),
       });
 
-      form.reset();
+      if (response.ok) {
+        form.reset();
 
-      Swal.fire({
-        title: '¡¡Mensaje enviado!! Muchas gracias.',
-        showClass: {
-          popup: 'animate__animated animate__fadeInDown',
-        },
-        hideClass: {
-          popup: 'animate__animated animate__fadeOutUp',
-        },
-        buttonsStyling: false,
-        customClass: {
-          confirmButton: 'button-class',
-        },
-      }).then(() => {
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth',
+        Swal.fire({
+          title: '¡Mensaje enviado! Muchas gracias.',
+          showClass: {
+            popup: 'animate__animated animate__fadeInDown',
+          },
+          hideClass: {
+            popup: 'animate__animated animate__fadeOutUp',
+          },
+          buttonsStyling: false,
+          customClass: {
+            confirmButton: 'button-class',
+          },
+        }).then(() => {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+          });
         });
-      });
 
-      console.log('Mensaje enviado correctamente');
+        console.log('Mensaje enviado correctamente');
+      } else {
+        console.error('Error al enviar el mensaje', response.status);
+      }
     } catch (error) {
       console.error('Error al enviar el mensaje', error);
     }
@@ -95,4 +101,20 @@ export const Contacto = () => {
   );
 };
 
-/*https://formspree.io/f/xnqkqkde */
+/*https://formspree.io/f/xnqkqkde 
+
+showClass: {
+          popup: 'animate__animated animate__fadeInDown',
+        },
+        hideClass: {
+          popup: 'animate__animated animate__fadeOutUp',
+        },
+        buttonsStyling: false,
+        customClass: {
+          confirmButton: 'button-class',
+        },
+
+
+
+
+*/
