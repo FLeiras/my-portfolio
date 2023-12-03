@@ -58,15 +58,31 @@
   bottom: 0;
 }
 
-/*RESPONSIVE*/
-@media screen and (max-width = 800px) {
+/* RESPONSIVE */
+@media screen and (max-width: 800px) {
   #portfolio {
     padding: 50px 0;
   }
+
   #portfolio .fila {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
   #portfolio .fila .proyecto {
     margin: 10px auto;
+  }
+
+  #portfolio .fila .proyecto .info p {
+    display: none;
+  }
+
+  #portfolio .fila .proyecto .info h4 {
+    display: none;
+  }
+
+  #portfolio .fila .proyecto .info a h4 {
+    display: block;
   }
 }

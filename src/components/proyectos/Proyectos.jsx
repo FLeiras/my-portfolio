@@ -21,6 +21,9 @@ export const Proyectos = () => {
             <div className="info">
               <h4>Descripción del Proyecto</h4>
               <p>Desempeño FullStack.</p>
+              <a href="https://fede-countries-app.vercel.app/" target="_blank">
+                <h4>Visitalo</h4>
+              </a>
             </div>
           </div>
           <div className="proyecto">
