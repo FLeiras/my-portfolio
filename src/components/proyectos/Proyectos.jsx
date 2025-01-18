@@ -21,7 +21,7 @@ export const Proyectos = () => {
             <div className="info">
               <h4>Descripción del Proyecto</h4>
               <p>Desempeño FullStack.</p>
-              <a href="https://fede-countries-app.vercel.app/" target="_blank">
+              <a href="https://fede-countries-app.vercel.app/" target="_blank" rel="noreferrer">
                 <h4>Visitalo</h4>
               </a>
             </div>
@@ -52,7 +52,7 @@ export const Proyectos = () => {
                 TechPro App, proyecto personal para poner en practica cursos de
                 css y responsive design.
               </p>
-              <a href="https://tech-pro-app.netlify.app/" target="_blank">
+              <a href="https://tech-pro-app.netlify.app/" target="_blank" rel="noreferrer">
                 <h4>Visitalo</h4>
               </a>
             </div>
@@ -65,7 +65,7 @@ export const Proyectos = () => {
               <p>
                 PokeGame, juego donde el usuario itenta adivinar la silueta.
               </p>
-              <a href="https://pokemon-game-v100.netlify.app/" target="_blank">
+              <a href="https://pokemon-game-v100.netlify.app/" target="_blank" rel="noreferrer">
                 <h4>Visitalo</h4>
               </a>
             </div>
