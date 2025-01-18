@@ -1,5 +1,5 @@
-import foto from '../../../src/images/fotoMia.jpg';
-import cv from '../../images/Federico_Leiras.pdf';
+import foto from '../../assets/images/fotoMia.jpg';
+import cv from '../../assets/docs/Federico_Leiras.pdf';
 
 import './Sobre-mi.css';
 

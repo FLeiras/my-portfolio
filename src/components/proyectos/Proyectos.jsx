@@ -1,11 +1,11 @@
-import React from 'react';
-
-import country from '../../../src/images/proyecto1.png';
-import henrys from '../../../src/images/proyecto2.png';
-import chatter from '../../../src/images/proyecto3.png';
-import tech from '../../../src/images/proyecto4.png';
-import poke from '../../../src/images/proyecto5.png';
-import toktik from '../../../src/images/proyecto6.png';
+import {
+  country,
+  henrys,
+  chatter,
+  tech,
+  poke,
+  toktik,
+} from '../../assets/projects';
 
 import './Proyectos.css';
 

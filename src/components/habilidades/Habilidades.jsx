@@ -1,20 +1,22 @@
 import './Habilidades.css';
 
-import js from '../../images/js.png';
-import ts from '../../images/ts.png';
-import html from '../../images/html.png';
-import dart from '../../images/dart1.png';
-import node from '../../images/node.png';
-import exp from '../../images/express.png';
-import pos from '../../images/pos.png';
-import mongo from '../../images/mongo.png';
-import react from '../../images/react.png';
-import vue from '../../images/vue.png';
-import flutter from '../../images/flutter.png';
-import docker from '../../images/docker.png';
-import git from '../../images/git.png';
-import postman from '../../images/postman.png';
-import boot from '../../images/bootstrap.png';
+import {
+  bootstrap,
+  dart1,
+  docker,
+  exp,
+  flutter,
+  git,
+  html,
+  js,
+  mongo,
+  node,
+  pos,
+  postman,
+  react,
+  ts,
+  vue,
+} from '../../assets/skills/index.js';
 
 export const Habilidades = () => {
   return (
@@ -27,7 +29,7 @@ export const Habilidades = () => {
             <img src={js} alt="" />
             <img src={ts} alt="" />
             <img src={html} alt="" />
-            <img src={dart} alt="" />
+            <img src={dart1} alt="" />
           </div>
           <div className="titulo-habilidades codigo">
             <h3>Backend</h3>
@@ -47,7 +49,7 @@ export const Habilidades = () => {
             <img src={docker} alt="" />
             <img src={git} alt="" />
             <img src={postman} alt="" />
-            <img src={boot} alt="" />
+            <img src={bootstrap} alt="" />
           </div>
         </div>
       </div>
