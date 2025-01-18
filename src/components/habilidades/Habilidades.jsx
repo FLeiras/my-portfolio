@@ -4,7 +4,7 @@ import {
   bootstrap,
   dart,
   docker,
-  exp,
+  express,
   flutter,
   git,
   html,
@@ -34,7 +34,7 @@ export const Habilidades = () => {
           <div className="titulo-habilidades codigo">
             <h3>Backend</h3>
             <img src={node} alt="" />
-            <img src={exp} alt="" />
+            <img src={express} alt="" />
             <img src={pos} alt="" />
             <img src={mongo} alt="" />
           </div>
