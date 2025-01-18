@@ -2,7 +2,7 @@ import './Habilidades.css';
 
 import {
   bootstrap,
-  dart1,
+  dart,
   docker,
   exp,
   flutter,
@@ -29,7 +29,7 @@ export const Habilidades = () => {
             <img src={js} alt="" />
             <img src={ts} alt="" />
             <img src={html} alt="" />
-            <img src={dart1} alt="" />
+            <img src={dart} alt="" />
           </div>
           <div className="titulo-habilidades codigo">
             <h3>Backend</h3>
