@@ -42,7 +42,7 @@ export const Contacto = () => {
         console.error('Error al enviar el mensaje', response.status);
       }
     } catch (error) {
-      console.error('Error al enviar el mensaje', error);
+      console.error('Error al enviar el mensaje catch', error);
     }
   };
 

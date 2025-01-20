@@ -1,10 +1,10 @@
 import {
-  country,
-  henrys,
-  chatter,
+  // country,
+  // henrys,
+  // chatter,
   tech,
   poke,
-  toktik,
+  // toktik,
 } from '../../assets/projects';
 
 import './Proyectos.css';
@@ -14,14 +14,18 @@ export const Proyectos = () => {
     <>
       <div id="portfolio">
         <h3 className="titulo-seccion">MIS PROYECTOS</h3>
-        <div className="fila">
+        {/* <div className="fila">
           <div className="proyecto">
             <div className="overlay"></div>
             <img src={country} alt="" />
             <div className="info">
               <h4>Descripción del Proyecto</h4>
               <p>Desempeño FullStack.</p>
-              <a href="https://fede-countries-app.vercel.app/" target="_blank" rel="noreferrer">
+              <a
+                href="https://fede-countries-app.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <h4>Visitalo</h4>
               </a>
             </div>
@@ -42,7 +46,7 @@ export const Proyectos = () => {
               <p>Desempeño FrontEnd.</p>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="fila">
           <div className="proyecto">
             <div className="overlay"></div>
@@ -52,7 +56,11 @@ export const Proyectos = () => {
                 TechPro App, proyecto personal para poner en practica cursos de
                 css y responsive design.
               </p>
-              <a href="https://tech-pro-app.netlify.app/" target="_blank" rel="noreferrer">
+              <a
+                href="https://tech-pro-app.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <h4>Visitalo</h4>
               </a>
             </div>
@@ -63,14 +71,19 @@ export const Proyectos = () => {
             <div className="info">
               <h4>Descripción del Proyecto</h4>
               <p>
-                PokeGame, juego donde el usuario itenta adivinar la silueta.
+                Pokedex, proyecto personal donde podras introducirte en el mundo
+                pokemon. Desarrollado en Vite + Vue 3 + Pinia consumiendo pokeApi.co.
               </p>
-              <a href="https://pokemon-game-v100.netlify.app/" target="_blank" rel="noreferrer">
+              <a
+                href="https://pokedex-fedeleiras.netlify.app/landing/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <h4>Visitalo</h4>
               </a>
             </div>
           </div>
-          <div className="proyecto">
+          {/* <div className="proyecto">
             <div className="overlay"></div>
             <img src={toktik} alt="" />
             <div className="info">
@@ -80,7 +93,7 @@ export const Proyectos = () => {
                 Flutter.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
